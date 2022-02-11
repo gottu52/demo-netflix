@@ -1,0 +1,39 @@
+.Row {
+  margin-left: 20px;
+}
+
+.Row-posters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.Row-poster {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin: 10px;
+  -webkit-transition: -webkit-transform 450ms;
+  transition: -webkit-transform 450ms;
+  transition: transform 450ms;
+  transition: transform 450ms, -webkit-transform 450ms;
+}
+
+.Row-poster-large {
+  max-height: 250px;
+}
+
+.Row-poster-large:hover {
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+.Row-poster:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+/*# sourceMappingURL=Row.css.map */
